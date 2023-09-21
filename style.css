@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Libre Franklin";
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:20px;
+}
+.illustration{
+    width:100%;
+    margin-bottom:250px;
+}
+.input-and-button{
+    display:flex;
+    flex-direction: column;
+}
+.logo{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+h1{
+    margin-bottom:0px;
+    font-size:1.8rem;
+    max-width: 350px;
+    text-align: center;
+}
+h1 span{
+    font-weight: 300;
+    color:hsl(0, 0%, 59%);
+}
+h2{
+    font-size:1.2rem;
+    font-weight: 300;
+    margin-bottom:30px;
+}
+.icons-container{
+    text-align: center;
+}
+.icons{
+    margin-bottom:60px;
+}
+.icons i{
+    border:1px solid hsl(0, 0%, 59%);
+    padding:10px;
+    border-radius:20px;
+    color:hsl(223, 87%, 63%);
+    cursor:pointer;
+    margin-right:10px;
+    transition: color 0.15s, background-color 0.15s;
+}
+.icons i:last-child{
+    margin:0px;
+}
+.icons i:hover{
+    background-color:hsl(223, 87%, 63%);
+    color:white;
+    
+}
+.copyright{
+    color:hsl(0, 0%, 59%);
+    margin-bottom:45px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+.email-input{
+    width:300px;
+    height:50px;
+    outline:none;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius:25px;
+    border:none;
+    border:1px solid hsl(0, 0%, 59%);
+
+    
+
+}
+.email-input::placeholder{
+    color:hsl(0, 0%, 59%);
+    
+}
+.btn{
+    margin-top:15px;
+    width:300px;
+    height:50px;
+    cursor:pointer;
+    margin-bottom:140px;
+    font-family: inherit;
+    font-weight: 700;
+    color:white;
+    background-color:hsl(223, 87%, 63%);
+    border:none;
+    border-radius:25px;
+    transition: background-color 0.15s;
+}
+.btn:hover{
+    background-color:hsl(223, 100%, 88%);
+}
+.error-p{
+    color:hsl(354, 100%, 66%);
+    text-align: center;
+    display:none;
+}
+footer{
+    color:white;
+    background-color:black;
+    width:100%;
+    text-align: center;
+}
+footer a{
+    color:hsl(223, 87%, 63%);
+    text-decoration: none;
+    
+}
+@media (min-width:768px){
+    h1{
+        font-size:2rem;
+    }
+    h2{
+        margin-bottom:45px;
+    }
+    .form{
+        flex-direction: row;
+    }.btn{
+        margin-left:10px;
+        margin-top:0px;
+        width:190px;
+    }
+}
